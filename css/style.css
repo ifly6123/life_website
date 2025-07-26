@@ -234,7 +234,7 @@ body:hover .cursor-dot, body:hover .cursor-outline { opacity: 1; }
     filter: blur(0px) brightness(1);
 }
 .cockpit-overlay {
-    position: relative;
+    position: absolute;
     z-index: 2;
     text-align: center;
     max-width: 900px;
@@ -247,7 +247,7 @@ body:hover .cursor-dot, body:hover .cursor-outline { opacity: 1; }
     line-height: 1.8;
 }
 .cockpit-highlight {
-    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-size: clamp(1.5rem, 1.5vw, 1.5rem);
     margin: 40px 0;
     color: var(--color-accent);
 }
